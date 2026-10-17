@@ -1,9 +1,17 @@
 # Dolce Vita by Valentina
 
-Site estático da Dolce Vita by Valentina. Os arquivos publicados estão em `dist/`.
+Site estático da Dolce Vita by Valentina. Arquivos publicados em `dist/`.
 
-## Vercel
+## Deploy automático
 
-Importe este repositório como um projeto na Vercel. Escolha Other como framework, deixe o comando de build vazio e use `dist` como diretório de saída.
+Repositório ligado ao projeto `dolcevita` na Vercel.
 
-Depois de conectado, novos commits na branch de produção geram um deploy automaticamente. Cada novo repositório de site precisa ser importado uma vez na Vercel.
+- Site: https://dolcevita-ten.vercel.app
+- Branch de produção: `main`.
+- Framework: Other.
+- Diretório de saída: `dist`.
+- Sem comando de build ou instalação.
+
+Commits enviados para `main` disparam deploys na Vercel. Consulte Deployments para confirmar o resultado.
+
+Cada novo repositório de outro site precisa de uma ligação própria à Vercel.
